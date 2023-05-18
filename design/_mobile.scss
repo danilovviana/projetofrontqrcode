@@ -1,0 +1,113 @@
+@media (max-width: 900px) {
+    .container {
+        display: flexbox;
+    }
+}
+
+@media (max-width: 750px) {
+    container {
+        display: flexbox;
+        .box {
+            background-color: hsl(0, 0%, 100%);
+            margin: auto;
+            width: 300px;
+            height: 480px;
+            padding: 20px;
+            border-radius: 20px 20px 20px 20px;
+            text-align: center;
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px 10px 10px 10px;
+            transition: all;
+            &:hover {
+                width: 303px;
+                height: 303px;
+            }
+        }
+        h1 {
+            font-size: 22px;
+            font-family: 'Outfit', sans-serif, bold;
+            font-style: bold;
+        }
+        h3 {
+            font-size: 15px;
+            font-family: 'Outfit', sans-serif, normal;
+            color: hsl(212, 16%, 76%);
+        }
+    }
+}
+
+@media (max-width: 610px) {
+    container {
+        display: flexbox;
+        .box {
+            background-color: hsl(0, 0%, 100%);
+            margin: auto;
+            width: 300px;
+            height: 480px;
+            padding: 20px;
+            border-radius: 20px 20px 20px 20px;
+            text-align: center;
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px 10px 10px 10px;
+            transition: all;
+            &:hover {
+                width: 303px;
+                height: 303px;
+            }
+        }
+        h1 {
+            font-size: 22px;
+            font-family: 'Outfit', sans-serif, bold;
+            font-style: bold;
+        }
+        h3 {
+            font-size: 15px;
+            font-family: 'Outfit', sans-serif, normal;
+            color: hsl(212, 16%, 76%);
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    container {
+        display: flexbox;
+        .box {
+            background-color: hsl(0, 0%, 100%);
+            margin: auto;
+            width: 300px;
+            height: 480px;
+            padding: 20px;
+            border-radius: 20px 20px 20px 20px;
+            text-align: center;
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px 10px 10px 10px;
+            transition: all;
+            &:hover {
+                width: 303px;
+                height: 303px;
+            }
+        }
+        h1 {
+            font-size: 22px;
+            font-family: 'Outfit', sans-serif, bold;
+            font-style: bold;
+        }
+        h3 {
+            font-size: 15px;
+            font-family: 'Outfit', sans-serif, normal;
+            color: hsl(212, 16%, 76%);
+        }
+        footer {
+            font-size: 13px;
+        }
+    }
+}
